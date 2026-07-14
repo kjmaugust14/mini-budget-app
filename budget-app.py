@@ -79,8 +79,8 @@ def create_spend_chart(categories):
             chart += "\n"
 
     return chart
-food = Category("Food")
-food.deposit(100, "deposit")
-food.withdraw(10, "groceries")
-print(food)
-print(create_spend_chart([food]))
+phone = Category("phone")
+phone.deposit(100, "deposit")
+phone.withdraw(10, "groceries")
+
+print(create_spend_chart([phone]))
